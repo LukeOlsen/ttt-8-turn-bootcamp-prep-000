@@ -16,5 +16,6 @@ def turn(board)
     move(board, input, value = "X")
   else
     turn(board)
+    display_board(board)
   end
 end
